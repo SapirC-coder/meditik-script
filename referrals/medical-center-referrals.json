@@ -1,0 +1,28 @@
+{
+    "data": {
+        "patientReferrals": [
+            {
+                "id": "4473670",
+                "hebrewDescription": "תזונה-דיאטה, יעוץ וטפול",
+                "appointmentTime": "2024-09-12T07:47:00.000Z",
+                "supplierClinicDescription": "ספק אחוד - חיל הרפואה/מומחים",
+                "expirationDate": "2025-01-09T00:00:00.000Z",
+                "isNewInfo": false,
+                "asmachtaId": null,
+                "referralStatusId": 6,
+                "__typename": "PatientReferral"
+            },
+            {
+                "id": "4780154",
+                "hebrewDescription": "פרופיל בירור אנמיה",
+                "appointmentTime": "2024-11-24T14:09:00.000Z",
+                "supplierClinicDescription": "ספק אחוד - חיל הרפואה/מעבדות",
+                "expirationDate": "2025-03-23T00:00:00.000Z",
+                "isNewInfo": false,
+                "asmachtaId": null,
+                "referralStatusId": 6,
+                "__typename": "PatientReferral"
+            }
+        ]
+    }
+}

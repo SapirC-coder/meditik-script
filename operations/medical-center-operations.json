@@ -1,0 +1,25 @@
+{
+    "data": {
+        "patientLabTests": [
+            {
+                "id": "3152896",
+                "labTestCategoryId": "2",
+                "labTestCategoryDescription": "המטולוגיה",
+                "labTestTypeDescription": "המטולוגיה",
+                "isNewInfo": false,
+                "isLabTestCulture": false,
+                "testDate": "2024-12-16T09:15:00.000Z",
+                "__typename": "PatientLabTest"
+            },
+            {
+                "id": "3153620",
+                "labTestCategoryId": "30",
+                "labTestCategoryDescription": "כימיה",
+                "labTestTypeDescription": "כימיה",
+                "isNewInfo": false,
+                "isLabTestCulture": false,
+                "testDate": "2024-12-16T09:15:00.000Z",
+                "__typename": "PatientLabTest"
+            }
+    }
+}

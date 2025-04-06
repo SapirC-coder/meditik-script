@@ -1,0 +1,46 @@
+{
+    "data": {
+        "patientAppointment": [
+            {
+                "id": "12265574",
+                "appointmentTime": "2024-04-29T08:25:00.000Z",
+                "appointmentTypeDescription": "אזורית",
+                "caregiverName": "מערכת ביקור רופא",
+                "isNewInfo": false,
+                "isWithoutPatient": false,
+                "sourceSystemDescription": "ביקור רופא",
+                "__typename": "PatientAppointment"
+            },
+            {
+                "id": "16056405",
+                "appointmentTime": "2025-02-23T08:44:00.000Z",
+                "appointmentTypeDescription": "פיזיותרפיה",
+                "caregiverName": "רופאה 1",
+                "isNewInfo": false,
+                "isWithoutPatient": false,
+                "sourceSystemDescription": "מרפאה צבאית",
+                "__typename": "PatientAppointment"
+            },
+            {
+                "id": "16058486",
+                "appointmentTime": "2025-02-23T10:04:00.000Z",
+                "appointmentTypeDescription": "רופא ראשוני",
+                "caregiverName": "רופא 2",
+                "isNewInfo": false,
+                "isWithoutPatient": false,
+                "sourceSystemDescription": "מרפאה צבאית",
+                "__typename": "PatientAppointment"
+            },
+            {
+                "id": "16058785",
+                "appointmentTime": "2025-02-23T10:29:00.000Z",
+                "appointmentTypeDescription": "רופא ראשוני",
+                "caregiverName": "רופא 1",
+                "isNewInfo": false,
+                "isWithoutPatient": true,
+                "sourceSystemDescription": "מרפאה צבאית",
+                "__typename": "PatientAppointment"
+            }
+        ]
+    }
+}
