@@ -19,13 +19,14 @@ class Lab(BaseModel):
         self.test_date = self.test_date.split("T")[0]
 
 
-def download_referral(medic_id, file_name):
+def download_operation(medic_id, file_name):
     download_request("lab-tests/regular/", medic_id, file_name)
 
 
+print("Downloading operations...")
 medical_center = load_medical_center(metadata, PATIENT_LAB_TESTS, Lab)
 for lab in medical_center:
     lab_file_name = f"{lab.test_date}--{lab.lab_test}"
     print(f"downloading {lab_file_name}")
-    download_referral(lab.id, lab_file_name)
+    download_operation(lab.id, lab_file_name)
     sleep(3)

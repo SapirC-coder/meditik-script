@@ -1,5 +1,5 @@
 import requests
-from vars import SOLIDER, AUTH
+from medical_center.vars import SOLIDER, AUTH
 #TODO Solider & Auth needs to be updated
 
 

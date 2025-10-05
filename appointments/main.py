@@ -28,6 +28,7 @@ def download_appointment(appointment_num, file_name):
     download_request(addition_url, appointment_num, file_name)
 
 
+print("Downloading appointments...")
 medical_center = load_medical_center(metadata, PATIENT_APPOINTMENT, Appointment)
 for appointment in medical_center:
     appointment_file_name = f"{appointment.appointment_type}\\{appointment.appointment_time}--{appointment.doctor_name}"

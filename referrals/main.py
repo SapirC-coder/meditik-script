@@ -29,7 +29,7 @@ def download_referral(medic_id, file_name):
     except Exception as e:
         print("error while downloading asmachta")
 
-
+print("Downloading referrals...")
 medical_center = load_medical_center(metadata, PATIENT_REFERRAL, Referral)
 for referral in medical_center:
     referral_file_name = f"{referral.appointment_time}--{referral.description}--{referral.supplier}"
