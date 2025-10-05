@@ -3,7 +3,7 @@ This script is used by programmers, I can guide you what do you need to change
 inorder to fetch the info from your user, feel free to add medical_center fetch
 # What can you fetch and how does it work?
 ### Inside every './appointments' './operations' './referrals'  you got 'main.py'
-### Inorder to get all your .pdf appointments (as well for the others) you need to do these things:
+### Inorder to get all your .pdf appointments (as well for the others) you need to do these steps:
 #### 1. Login to meditik and press F12 (inspect), Go to network tab.
 #### 2. In the network tab, Add filter 'medical-center'
 #### 3. Update './appointments/medical-center-appointments.json' file or whatever medical info you want to fetch.
