@@ -1,6 +1,6 @@
 import requests
 from vars import SOLIDER, AUTH
-# Solider & Auth needs to be updated
+#TODO Solider & Auth needs to be updated
 
 
 def download_request(addition_url: str, medic_center_id, file_name):

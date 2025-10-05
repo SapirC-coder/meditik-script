@@ -2,9 +2,9 @@ from pydantic import BaseModel, ConfigDict, Field
 from time import sleep
 import os
 
-from download import download_request
-from medical_center_metadata_converter import load_medical_center
-from consts import *
+from medical_center.download import download_request
+from medical_center.medical_center_metadata_converter import load_medical_center
+from medical_center.consts import *
 
 metadata = "medical-center-appointments.json"
 
